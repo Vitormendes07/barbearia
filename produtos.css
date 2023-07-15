@@ -1,0 +1,141 @@
+body{
+    font: 12pt Arial;
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgb(5, 5, 5)0%,
+    rgb(10, 10, 10) 86%, rgb(58, 157, 196) 100%);
+}
+nav{
+    background: rgb(66, 147, 153);
+    background: linear-gradient(0deg, rgb(87, 137, 167)44%,
+    rgba(0,0,0,1) 100%);
+    text-align: right;
+    padding: 10px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 0 0 15px;
+    padding: 10px;
+}
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+.titulo {
+    font-family: "Pacifico", cursive;
+    font-weight: normal;
+    font-size: 40px;
+    color: aliceblue;
+    padding: 10px;
+}
+.sub-titulo{
+    text-align: center;
+    font-weight: normal;
+    font-size: 30px;
+    color: aliceblue;
+    padding: 10px;
+}
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.produtos img{
+    width: 200px;
+    height: 200px;
+}
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    margin-top: 10px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px solid #ff0000;
+    border-radius: 10px 20px 10px 40px;
+}
+.produtos li:hover {
+    border-color: #c78c19;
+}
+.produtos li:active {
+    border-color: #0c9107;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+}
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.produtos-preco {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+.local{
+    width: 940px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.local img{
+    width: 300px;
+    height: 300px;
+    margin: 3px;
+    border-radius: 10px;
+    border: 3px solid #ff0000;
+    box-shadow: 3px 3px 3px #ff0101;
+}
+.local li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    margin-top: 10px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+.rede-social{
+    text-align: right;
+    padding: 2px;
+}
+.rede-social img{
+    width: 30px;
+    height: 30px;
+}
+.rede-social li{
+    display: inline-block;
+    color: seashell;
+    padding: 3px;
+}
+.endereco{
+    color: aliceblue;
+}
+#btn {
+    padding: 0.5em 1.5em;
+    box-shadow: -5px 6px #f30000;
+    border: 3px solid #ff0000;
+    color: #f50000;
+    font-weight: 400;
+    font-size: 1em;
+    transition: all esse-in 0.2s;
+    border-radius: 50px;
+}
+#btn a{
+    text-align: center;
+    font-size: 28px;
+    color: #ff0000;
+    text-decoration: none;
+}
